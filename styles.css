@@ -1,0 +1,93 @@
+/* styles.css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+  header {
+    padding: 10px;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li{
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+   
+  }
+ .active{
+  background: white;
+  color: #333;
+  padding: 2rem;
+ }
+ .pub{
+  text-decoration: none;
+  color: #333;
+ }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .login{
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 0.8rem;
+    border-radius: 8px;
+
+  }
+  .signup{
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+  }
+  .signup:hover{
+    text-decoration: underline;
+  }
+  .homecont{
+    display: flex;
+    margin-top: 5rem;
+  }
+  .img1{
+    width: 60%;
+    height: 80vh;
+    object-fit: cover;
+    margin-right: 2rem;
+  }
+
+  @media screen and (max-width: 552px) {
+    .homecont{
+      display: block;
+    }
+    .img1{
+      margin: 0 auto;
+    }
+    
+  }
